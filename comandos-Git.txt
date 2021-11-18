@@ -1,0 +1,13 @@
+Lista de comandos comunes en git
+
+Ver el historial de commits de un archivo
+    git log "nombre-archivo"
+
+Ver el historial de un archivo
+
+    git show "nombre-archivo"
+    A diferencia de git log, este comando muestra las líneas que sufrieron algún cambio y no solo  el título de los commit
+
+Comparar dos versiones del mismo archivo
+
+    git diff "ID-commit-original" "ID-commit-nuevo"
