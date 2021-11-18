@@ -1,0 +1,1 @@
+Texto de prueba dentro de un archivo de texto plano creado con la terminal "git bash"
