@@ -1,0 +1,23 @@
+Cómo crear un repositorio desde Git Bash.
+
+Pasos.
+
+1. Entrar en la carpeta principal del proyecto
+    cd "ruta absoluta o relativa"
+2. Una vez dentro, ejecutar el comando git init
+    Esto creará una carpeta oculta (.git) que tiene el formato por default para una repo en git
+    Para ver la carpeta se puede ejecutar el comando ls -la
+3. Git estará al tanto de los archivos que hay y de los cambios que sufran
+    El estado de un archivo se puede ver con el comando git status
+4. Git se dará cuenta de los archivos que no se han cargado en la RAM y por tanto no podrá hacer un seguimiento de sus cambios.
+Para añadirlos se pueden utilizar los siguientes comandos
+    git add "nombre del archivo"
+    git add .           // Agrega TODOS los archivos del proyecto
+    Una vez que se han cargado los archivos de interés, se puede corroborar su estado con el comando git status
+
+5. Si se desea quitar un archivo de la RAM (acción contraria del paso 4) se ejecuta el comando  
+    git rm --cached "nombre del archivo"
+    Nota: los dos guiones se utilizan cuando se va a colocar posteriormente una palabra completa
+
+6. Para mandarlo al repositorio se ejecuta el comando   
+    git commit -m "mensaje que describa el cambio efectuado"
