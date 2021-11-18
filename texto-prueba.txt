@@ -1,0 +1,1 @@
+Texto creado con la terminal "Git bash" 

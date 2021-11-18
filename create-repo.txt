@@ -21,3 +21,6 @@ Para añadirlos se pueden utilizar los siguientes comandos
 
 6. Para mandarlo al repositorio se ejecuta el comando   
     git commit -m "mensaje que describa el cambio efectuado"
+
+Por último, si se desea ver el historial de un archivo se ejecuta el comando
+    git log "nombre del archivo"

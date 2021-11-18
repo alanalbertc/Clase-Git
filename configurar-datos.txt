@@ -1,0 +1,16 @@
+Para comenzar a trabajar con un repositorio en Git se necesita configurar un usuario y correo.
+
+Estas y más configuraciónes se pueden realizar con el comando
+
+    git config
+    git config --list (listado de las configuraciones por defecto)
+    git config --list --show-origin   (Muestra las direcciones en donde están guardadas las configuraciones)
+
+Cambiar el usuario de git
+
+git config --global user.name "valor"
+
+Cambiar el correo de gitgit config
+ --global user.email
+
+Por último se ejecuta "git config --list" para corroborar que los cambios se hayan hecho con éxito
