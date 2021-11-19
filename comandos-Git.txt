@@ -2,6 +2,7 @@ Lista de comandos comunes en git
 
 Ver el historial de commits de un archivo
     git log "nombre-archivo"
+    git log "nombre-archivo" --stat     //Muestra los cambios hechos en cada commit
 
 Ver el historial de un archivo
 
@@ -11,3 +12,10 @@ Ver el historial de un archivo
 Comparar dos versiones del mismo archivo
 
     git diff "ID-commit-original" "ID-commit-nuevo"
+
+Viajes en el tiempo
+
+    para volver de una forma brusca a una versión de un archivo se usa el comando 
+        git reset "ID-commit" --hard    (Elimina el historial de commits, elimina lo que haya en stagging, elimina todo y regresa a la versión del ID indicado)
+    Para volver de una forma más amigable a una versión de un archivo se usa el comando 
+        git reset "ID-commit" --soft
