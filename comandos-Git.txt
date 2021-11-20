@@ -16,6 +16,9 @@ Comparar dos versiones del mismo archivo
 Viajes en el tiempo
 
     para volver de una forma brusca a una versión de un archivo se usa el comando 
-        git reset "ID-commit" --hard    (Elimina el historial de commits, elimina lo que haya en stagging, elimina todo y regresa a la versión del ID indicado)
+        git reset "ID-commit" --hard    (Elimina el historial de commits, elimina lo que haya en staging, elimina todo y regresa a la versión del ID indicado)
     Para volver de una forma más amigable a una versión de un archivo se usa el comando 
-        git reset "ID-commit" --soft
+        git reset "ID-commit" --soft  (Elimina el historial de commits pero mantiene los cambios guardados en staging)
+    Para quitar un archivo del Staging (no lo borra, solo lo pasa al estado "Unstaged")
+        git reset HEAD "nombre"
+    
