@@ -1,1 +1,9 @@
 Esta  es la segunda versión del archivo, son las 10:29 pm
+
+Acabo de regresar de un viaje en el tiempo. Son las 10:38 pm
+Primero regresé a las 10:24 pm con 
+    git checkout "commit ID" volver-en-el-tiempo.txt
+
+Después regresé a las 10:29 pm con
+    git checkout master volver-en-el-tiempo.txt
+recuperando el commit de la rama máster
