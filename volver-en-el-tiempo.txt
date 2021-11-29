@@ -7,3 +7,14 @@ Primero regresé a las 10:24 pm con
 Después regresé a las 10:29 pm con
     git checkout master volver-en-el-tiempo.txt
 recuperando el commit de la rama máster
+
+
+Voy a realizar mi segundo viaje en el tiempo pero ahora voy a eliminar todo
+
+1. Crearé un archivo para no perder la información de este (viaje-2.txt). 
+2. Le realizaré varios cambios, uno por cada commit.
+3. Regresar a la primer versión y hacerla header (última versión en la rama máster).
+4. Regresar otra vez a la primer versión y borrar todo el historial de commits.
+    git rm "commit ID" --hard
+5. Verificar que sí se borró todo y regresé a la primer versión.
+    git log viaje-2.txt
