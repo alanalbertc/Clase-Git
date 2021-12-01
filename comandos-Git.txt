@@ -21,4 +21,19 @@ Viajes en el tiempo
         git reset "ID-commit" --soft  (Elimina el historial de commits pero mantiene los cambios guardados en staging)
     Para quitar un archivo del Staging (no lo borra, solo lo pasa al estado "Unstaged")
         git reset HEAD "nombre"
-    
+
+Creación de rama    
+    git branch "nombre_rama"
+
+Para cambiar de rama
+    git checkout "nombre_rama"    
+    **IMPORTANTE**
+    Antes de cambiar de rama hay que asegurarse de que los cambios fueron guardados mediante un commit
+
+Consultar las ramas existentes
+    git branch
+
+Unir dos ramas
+    1. Irse a la rama en la que se van a traer los commit de la otra rama (normalmente master)
+    2. git merge "nombre_rama"
+
