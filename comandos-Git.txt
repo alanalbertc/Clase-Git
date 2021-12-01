@@ -52,5 +52,5 @@ Resolución de conflictos
         "liena(s) con conflicto"
     
     Entonces simplemente queda seleccionar una de las opciones y VSC en automático eliminará las líneas con la sintaxys del error y dejará las líneas con conflicto con la opcion que hayamos seleccionado.
-
+    
     La forma manual de realizar esto (por ejemplo en el block de notas) es eliminar las líneas correspondientes al error "<<< y >>>" y dejar las linea(s) con conflicto con la opción que querramos.
