@@ -37,3 +37,20 @@ Unir dos ramas
     1. Irse a la rama en la que se van a traer los commit de la otra rama (normalmente master)
     2. git merge "nombre_rama"
 
+Resolución de conflictos
+    Cuando dos programadores han modificado las mismas líneas de código en el archivo, git nos dirá que hay un conflicto, hay que arreglarlo y después volver a realizar el merge
+
+    Forma de arreglarlo.
+    En Visual Studio Code nos aparecerá un mensaje en las líneas de conflicto junto con las opciones "conservar los cambios actuales", "aceptar los cambios entrantes" o "conservar ambos" en forma de link.
+
+    La sintaxys de los mensajes de error es el siguiente
+
+    <<<<<<<<< "rama_actual"
+        "liena(s) con conflicto"
+    ---------
+    >>>>>>>>> "rama_entrante"
+        "liena(s) con conflicto"
+    
+    Entonces simplemente queda seleccionar una de las opciones y VSC en automático eliminará las líneas con la sintaxys del error y dejará las líneas con conflicto con la opcion que hayamos seleccionado.
+
+    La forma manual de realizar esto (por ejemplo en el block de notas) es eliminar las líneas correspondientes al error "<<< y >>>" y dejar las linea(s) con conflicto con la opción que querramos.
