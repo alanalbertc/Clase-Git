@@ -72,3 +72,4 @@ Resolución de conflictos
 
     Si se desea eliminar un repositorio remoto entonces se ejecuta el siguiente comando
         git remote rm "origin_name"
+        git remote remove "origin_name"
