@@ -54,3 +54,18 @@ Resolución de conflictos
     Entonces simplemente queda seleccionar una de las opciones y VSC en automático eliminará las líneas con la sintaxys del error y dejará las líneas con conflicto con la opcion que hayamos seleccionado.
     
     La forma manual de realizar esto (por ejemplo en el block de notas) es eliminar las líneas correspondientes al error "<<< y >>>" y dejar las linea(s) con conflicto con la opción que querramos.
+
+
+    Enviar un repositorio local a GitHub
+
+    1.  git remote add origin "link_repo_en_GitHub" //agrega al repositorio remoto "origin master"
+    2.  git remote  // Comprueba que tenemos un origin en donde hacer pull y push
+        git remote -v // "De manera verbal" muestra el link del repositorio
+    3.  git push origin main
+    4.  Si aparece el error "falied to push some refs to..."
+        Es porque no se sabe lo que se ha estado trabajando en el repo origin, entonces primero hay que traer su contenido con un pull
+
+        gigt pull origin master
+    Si aparece fatal: refusing to merge unrelated histories
+
+    git pull origin master --allow-unrelated-histories  //forzar la fusión de las historias distintas
