@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+Texto creado con la terminal "Git bash" 
+=======
 Texto de prueba dentro de un archivo de texto plano creado con la terminal "git bash"
+>>>>>>> 07340261b5e48c282c7845ba7c933d27365c5761
