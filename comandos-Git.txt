@@ -65,7 +65,7 @@ Resolución de conflictos
     4.  Si aparece el error "falied to push some refs to..."
         Es porque no se sabe lo que se ha estado trabajando en el repo origin, entonces primero hay que traer su contenido con un pull
 
-        gigt pull origin master
+        git pull origin master
     Si aparece fatal: refusing to merge unrelated histories
 
     git pull origin master --allow-unrelated-histories  //forzar la fusión de las historias distintas
