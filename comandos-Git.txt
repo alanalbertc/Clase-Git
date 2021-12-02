@@ -69,3 +69,6 @@ Resolución de conflictos
     Si aparece fatal: refusing to merge unrelated histories
 
     git pull origin master --allow-unrelated-histories  //forzar la fusión de las historias distintas
+
+    Si se desea eliminar un repositorio remoto entonces se ejecuta el siguiente comando
+        git remote rm "origin_name"
