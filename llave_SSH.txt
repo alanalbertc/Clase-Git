@@ -1,0 +1,17 @@
+Comandos para crear llaves privadas y públicas SSH
+
+Si se desea cambiar la conexíon con protocolo HTTPS a SSH 
+    git remote set-url "origin_name" "SSH_URL"
+
+Generación de llaves de cifrado pública y privada
+
+    ssh-keygen -t rsa -b 4096 -C "email"
+
+Comprobar si el proceso de cifrado está activo
+    eval $(ssh-agent -s)
+
+Informar al sistema de la ubicación del archivo que contiene la llave privada
+    ssh-add <ruta-id_rsa>
+
+Posteriormente, hay que proporcionar a GitHub una copia de nuestra llave pública
+    ruta: Personal Settings / SSH and GPG keys / SSH keys
